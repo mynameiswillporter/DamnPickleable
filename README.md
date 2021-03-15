@@ -1,4 +1,4 @@
-# DamnPickleable
+# Damn 🥒able
 A Web App that is Intentionally Vulnerable to Insecure Deserialization via Pickle attacks
 
 ## Installation
