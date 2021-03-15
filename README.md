@@ -4,7 +4,7 @@ A Web App that is Intentionally Vulnerable to Insecure Deserialization via Pickl
 ## Vulnerabilities
 The application contains the following vulnerabilities:
 1. Vanilla Pickle RCE
-2. Sour Pickles RCE (Custom Pickler only allows certain builtins to be imported)
+2. Sour Pickles RCE (Custom Pickler only allows the following builtins to be imported `globals`, `getattr`, `dict`, `apply`)
 
 ## Installation
 Installation is simple, clone the repo, create a virtual env, pip install
